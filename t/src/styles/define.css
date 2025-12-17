@@ -1,0 +1,28 @@
+:root {
+  /* colors */
+  --bg-col: #0A0A0A;
+  --text-col: #B9B9B9;
+  --accent-col: #1F5CFF; /* exact from design */
+
+  /* typography */
+  --primary-font: "Switzer", sans-serif;
+
+  --f-thin: 100;
+  --f-regular: 400;
+  --f-medium: 500;
+  --f-semibold: 600;
+  --f-bold: 700;
+
+  /* tracking */
+  --ls-tight: -0.052em;
+
+  /* type scale */
+  --fs-sm: 0.875rem;
+  --fs-md: 1rem;
+  --fs-lg: 1.5rem;
+  --fs-xl: 3rem;
+
+  /* line height */
+  --lh-tight: 1.15;
+  --lh-normal: 1.4;
+}
