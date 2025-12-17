@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="Site title">
+    <meta name="description" content="Site description">
+    <meta name="keywords" content="keyword, keyword">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="English">
+    <meta name="revisit-after" content="1 days">
+    <title>four nights left,</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="src/styles/main.css">
+
+    <link href="https://api.fontshare.com/v2/css?f[]=plus-jakarta-sans@1,2&f[]=general-sans@1,2&f[]=switzer@1,2&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <div class="fnl">
+            <h1>four nights left,</h1>
+            <section>
+                <div class="tg-wrap">
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td>28th december 2025</td>
+                                <td style="font-weight: 550">self</td>
+                            </tr>
+                            <tr>
+                                <td>29th december 2025</td>
+                                <td style="font-weight: 550">here comes February,</td>
+                            </tr>
+                            <tr>
+                                <td>30th december 2025</td>
+                                <td style="font-weight: 550">fun // practice</td>
+                            </tr>
+                            <tr>
+                                <td>31st december 2025</td>
+                                <td style="font-weight: 550">fun // practice</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+            <section id="countdown">
+                <h2 id="cdfr">starting in <span id="yuh"></span> — <a href="https://www.youtube.com/@arvdevable">turn on notifications</a>.<br>
+                event by morphedstill.</h2>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <p>four nights left,<br>design by blasius n.</p>
+    </footer>
+    <script src="src/scripts/main.js"></script>
+
+    <script>
+        // Set the date we're counting down to
+        var countDownDate = new Date("Dec 28, 2025").getTime();
+
+        // Update the count down every 1 second
+        var x = setInterval(function() {
+
+        // Get today's date and time
+        var now = new Date().getTime();
+
+        // Find the distance between now and the count down date
+        var distance = countDownDate - now;
+
+        // Time calculations for days, hours, minutes and seconds
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+        // Display the result in the element with id="demo"
+        document.getElementById("yuh").innerHTML = days + "d " + hours + "h "
+        + minutes + "m " + seconds + "s ";
+
+        // If the count down is finished, write some text
+        if (distance < 0) {
+            clearInterval(x);
+            document.getElementById("yuh").innerHTML = "EXPIRED";
+        }
+        }, 1000);
+    </script>
+</body>
+</html>
