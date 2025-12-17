@@ -110,3 +110,27 @@ footer {
     font-size: 10px;
     letter-spacing: 0px;
 }
+
+/* Tracklist Specific Styles */
+.tracklist-wrap table {
+    max-width: 640px;
+}
+
+.track-num {
+    color: var(--text-col);
+    opacity: 0.5;
+    width: 40px;
+    font-size: var(--fs-md);
+    vertical-align: middle;
+}
+
+.track-time {
+    text-align: right;
+    opacity: 0.5;
+    font-size: var(--fs-md);
+    width: 60px;
+}
+
+.tracklist-wrap td {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05); /* Softer border for tracklist */
+}
